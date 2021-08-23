@@ -1,4 +1,4 @@
-const grades = [];
+let grades = [];
 
 const gradesForm = document.querySelector("form");
 
@@ -74,6 +74,7 @@ gradesForm.addEventListener("submit", (e) => {
   ).toFixed(2);
 
   const msg = `Nota Final: <strong>${validNote}</strong>`;
-
   setResult(msg, true);
+
+  document.querySelector("button").disabled = true;
 });
