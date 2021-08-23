@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Surf Grades</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">Surf Grades</h1>
+
+      <form action="/" method="POST">
+        <label for="grade1">
+          <input
+            placeholder="Digite uma nota de 0 a 10:"
+            type="number"
+            step="0.01"
+            name="grade1"
+          />
+        </label>
+
+        <label for="grade2">
+          <input
+            placeholder="Digite uma nota de 0 a 10:"
+            type="number"
+            step="0.01"
+            name="grade2"
+          />
+        </label>
+
+        <label for="grade3">
+          <input
+            placeholder="Digite uma nota de 0 a 10:"
+            type="number"
+            step="0.01"
+            name="grade3"
+          />
+        </label>
+
+        <label for="grade4">
+          <input
+            placeholder="Digite uma nota de 0 a 10:"
+            type="number"
+            step="0.01"
+            name="grade4"
+          />
+        </label>
+
+        <label for="grade5">
+          <input
+            placeholder="Digite uma nota de 0 a 10:"
+            type="number"
+            step="0.01"
+            name="grade5"
+          />
+        </label>
+
+        <button type="submit">Processar Notas</button>
+      </form>
+
+      <div id="result"></div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
