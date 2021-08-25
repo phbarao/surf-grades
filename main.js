@@ -73,7 +73,7 @@ gradesForm.addEventListener("submit", (e) => {
     3
   ).toFixed(2);
 
-  const msg = `Nota Final: <strong>${validNote}</strong>`;
+  const msg = `Nota Final: <strong data-cy="final-grade">${validNote}</strong>`;
   setResult(msg, true);
 
   document.querySelector("button").disabled = true;
